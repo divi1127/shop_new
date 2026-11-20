@@ -36,7 +36,7 @@ const ShippingPolicy = () => {
         <div className="prose prose-blue max-w-none text-gray-700 text-lg">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Detailed Processing Details</h2>
           <p className="mb-6">
-            Because all Megas Fabric apparel involves custom tailoring and intricate work such as Aari embroidery, processing times differ from standard ready-made clothing. We dedicate ourselves strictly to your requirements. 
+            Because all Shopy Fabric apparel involves custom tailoring and intricate work such as Aari embroidery, processing times differ from standard ready-made clothing. We dedicate ourselves strictly to your requirements. 
           </p>
           <ul className="list-disc pl-6 space-y-3 mb-8">
             <li>Standard stitch orders: Processing takes 3 to 5 business days.</li>

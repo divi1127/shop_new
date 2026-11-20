@@ -41,7 +41,7 @@ const Checkout = () => {
           </div>
           <h2 className="text-3xl font-bold text-brand-dark mb-4">Order Placed!</h2>
           <p className="text-gray-500 mb-8 leading-relaxed">
-            Thank you for shopping with Megas Fabric. Your order number is <span className="font-bold text-brand-blue">#MEG-{Math.floor(Math.random() * 100000)}</span>. 
+            Thank you for shopping with Shopy Fabric. Your order number is <span className="font-bold text-brand-blue">#SHP-{Math.floor(Math.random() * 100000)}</span>. 
             We've sent a confirmation to your email.
           </p>
           <div className="space-y-4 w-full">

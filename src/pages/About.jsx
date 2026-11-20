@@ -9,7 +9,7 @@ const About = () => {
          <img src="https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?auto=format&fit=crop&w=1920&q=80" alt="Sewing Machine" className="absolute inset-0 w-full h-full object-cover opacity-90" />
          <div className="absolute inset-0 bg-brand-dark/60"></div>
          <div className="relative z-10 text-center px-4">
-           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">About Megas Fabric</h1>
+           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">About Shopy Fabric</h1>
            <div className="w-24 h-1 bg-brand-blue mx-auto rounded-full"></div>
          </div>
       </section>
@@ -26,7 +26,7 @@ const About = () => {
             <div className="lg:w-1/2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-brand-dark">Our Story & Mission</h2>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Megas Fabric is a premium tailoring and design studio specializing in custom stitching, Aari embroidery, and bridal fashion. 
+                Shopy Fabric is a premium tailoring and design studio specializing in custom stitching, Aari embroidery, and bridal fashion. 
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
                 Our mission is to blend traditional craftsmanship with modern elegance, delivering unique designs tailored to every individual. We believe that what you wear is a reflection of who you are, and we put intricate care into every fabric we touch.

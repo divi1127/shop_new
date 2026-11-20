@@ -69,7 +69,7 @@ const Navbar = () => {
               <div className="bg-brand-blue text-white p-2 rounded-lg group-hover:bg-blue-700 transition duration-300 shadow-sm">
                  <Scissors size={20} className="md:w-6 md:h-6" />
               </div>
-              <span className="font-bold text-xl md:text-2xl tracking-tight text-brand-dark group-hover:text-brand-blue transition duration-300">Megas</span>
+              <span className="font-bold text-xl md:text-2xl tracking-tight text-brand-dark group-hover:text-brand-blue transition duration-300">Shopy</span>
             </Link>
 
             <form onSubmit={handleSearch} className="hidden lg:flex relative w-full max-w-sm mr-4">
@@ -190,7 +190,7 @@ const Navbar = () => {
               <div className="bg-brand-blue text-white p-1.5 rounded-lg shadow-sm">
                  <Scissors size={20} />
               </div>
-              <span className="font-bold text-xl tracking-tight text-brand-dark">Megas</span>
+              <span className="font-bold text-xl tracking-tight text-brand-dark">Shopy</span>
             </Link>
             <button 
               onClick={() => setIsOpen(false)} 
@@ -247,7 +247,7 @@ const Navbar = () => {
                         <LogIn size={20} />
                       </div>
                       <div className="text-left">
-                        <p className="font-bold text-brand-dark">Join Megas Fabric</p>
+                        <p className="font-bold text-brand-dark">Join Shopy Fabric</p>
                         <p className="text-xs text-gray-500">Login or Create Account</p>
                       </div>
                     </div>

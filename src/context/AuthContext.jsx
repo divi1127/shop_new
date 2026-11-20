@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     // Mock persistent login
-    const savedUser = localStorage.getItem('megas_user');
+    const savedUser = localStorage.getItem('shopy_user');
     if (savedUser) {
       setUser(JSON.parse(savedUser));
     }
@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
     // Mock login logic
     const mockUser = { id: 1, name: 'Guest User', email: email };
     setUser(mockUser);
-    localStorage.setItem('megas_user', JSON.stringify(mockUser));
+    localStorage.setItem('shopy_user', JSON.stringify(mockUser));
     return true;
   };
 
@@ -27,19 +27,19 @@ export const AuthProvider = ({ children }) => {
     // Mock signup logic
     const newUser = { id: Date.now(), ...userData };
     setUser(newUser);
-    localStorage.setItem('megas_user', JSON.stringify(newUser));
+    localStorage.setItem('shopy_user', JSON.stringify(newUser));
     return true;
   };
 
   const logout = () => {
     setUser(null);
-    localStorage.removeItem('megas_user');
+    localStorage.removeItem('shopy_user');
   };
 
   const updateUser = (updatedData) => {
     const updatedUser = { ...user, ...updatedData };
     setUser(updatedUser);
-    localStorage.setItem('megas_user', JSON.stringify(updatedUser));
+    localStorage.setItem('shopy_user', JSON.stringify(updatedUser));
     return true;
   };
 

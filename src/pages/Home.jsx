@@ -11,7 +11,7 @@ const Home = () => {
       img: 'https://i.pinimg.com/1200x/48/7c/74/487c744e4ad70559edf90ecafeb3fde9.jpg',
       title: 'Custom Tailoring &',
       highlight: 'Designer Craftsmanship',
-      desc: 'At Megas Fabric, we specialize in custom stitching, Aari work, embellishments, and contemporary styling designed just for you.',
+      desc: 'At Shopy Fabric, we specialize in custom stitching, Aari work, embellishments, and contemporary styling designed just for you.',
     },
     {
       img: 'https://i.pinimg.com/1200x/af/63/dc/af63dc7ad1b17548504fcf8f49a8002b.jpg',
@@ -71,7 +71,7 @@ const Home = () => {
                    className={`absolute top-0 left-0 transition-opacity duration-1000 ease-in-out w-full ${index === currentSlide ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
                  >
                    <span className="inline-block py-2 px-2 rounded-full bg-blue-500/20 text-blue-300 font-semibold text-[10px] md:text-sm  uppercase tracking-wider backdrop-blur-sm border border-blue-500/30 ">
-                     Welcome to Megas Fabric
+                     Welcome to Shopy Fabric
                    </span>
                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mt-2">
                      {slide.title} <br /> 
@@ -151,7 +151,7 @@ const Home = () => {
               <img src="https://i.pinimg.com/1200x/f3/94/4d/f3944df2a706b3b1c3cf70a270e78d50.jpg" alt="Why choose us" className="relative z-10 rounded-3xl shadow-2xl border-4 border-white" />
             </div>
             <div className="lg:w-1/2">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-dark mb-8">Why Choose <span className="text-brand-blue">Megas Fabric?</span></h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-brand-dark mb-8">Why Choose <span className="text-brand-blue">Shopy Fabric?</span></h2>
               <ul className="space-y-6">
                 {[
                   { title: "Premium Craftsmanship", desc: "Every stitch is made with the highest level of detail and precision." },
@@ -184,7 +184,7 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Sarah Jen", text: "The detailing on my custom blouse was absolutely phenomenal. The Aari work exceeded my expectations. Highly recommend Megas Fabric!" },
+              { name: "Sarah Jen", text: "The detailing on my custom blouse was absolutely phenomenal. The Aari work exceeded my expectations. Highly recommend Shopy Fabric!" },
               { name: "Priya Patel", text: "Finding the perfect lehenga was stressful until I came here. The fitting was flawless on the very first try." },
               { name: "Ayesha K.", text: "Their alteration service saved my dress! Fast, professional, and very reasonably priced." }
             ].map((review, i) => (
@@ -219,7 +219,7 @@ const Home = () => {
         <div className="max-w-3xl mx-auto px-4 relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">Design Your Dream Outfit Today</h2>
           <p className="text-xl text-blue-100 mb-10 leading-relaxed font-light max-w-2xl mx-auto">
-            Experience the perfect blend of tradition and modern aesthetics with Megas Fabric. Custom tailoring, exquisite Aari work, and premium fittings.
+            Experience the perfect blend of tradition and modern aesthetics with Shopy Fabric. Custom tailoring, exquisite Aari work, and premium fittings.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book-appointment" className="bg-white text-brand-blue px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-50 shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative z-10 cursor-pointer">

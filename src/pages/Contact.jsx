@@ -25,7 +25,7 @@ const Contact = () => {
                <Mail className="text-brand-blue mt-1" size={28} />
                <div>
                  <h3 className="text-lg font-bold text-brand-dark mb-1">Email Address</h3>
-                 <p className="text-gray-600">info@megasfabric.com</p>
+                 <p className="text-gray-600">info@shopyfabric.com</p>
                </div>
             </div>
             <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 flex items-start gap-4 hover:shadow-md transition-shadow">

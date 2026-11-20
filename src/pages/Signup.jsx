@@ -25,7 +25,7 @@ const Signup = () => {
         <div className="relative z-10">
           <div className="mb-8 text-center">
             <h1 className="text-3xl font-bold text-brand-dark mb-2">Create Account</h1>
-            <p className="text-gray-500">Join Megas Fabric for exclusive designs and faster checkout.</p>
+            <p className="text-gray-500">Join Shopy Fabric for exclusive designs and faster checkout.</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">

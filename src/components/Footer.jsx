@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="bg-brand-blue text-white p-2 rounded-lg">
                  <Scissors size={20} />
               </div>
-              <span className="font-bold text-xl text-white tracking-tight">Megas Fabric</span>
+              <span className="font-bold text-xl text-white tracking-tight">Shopy Fabric</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Where tradition meets contemporary style. We specialize in custom tailoring, Aari art, and bridal styling designed just for you.
@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 justify-center sm:justify-start">
                 <Mail className="text-brand-blue shrink-0" size={18} />
-                <span className="text-sm">info@megasfabric.com</span>
+                <span className="text-sm">info@shopyfabric.com</span>
               </li>
             </ul>
           </div>
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 text-center md:text-left">
-          <p>&copy; {new Date().getFullYear()} Megas Fabric. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Shopy Fabric. All rights reserved.</p>
           <p className="mt-2 md:mt-0 font-medium">Crafting Elegance, Stitch by Stitch.</p>
         </div>
       </div>
